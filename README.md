@@ -52,7 +52,7 @@ For each of the test cases:
 | I have $100 in my account | I withdraw $50  | I see that my account contains $50  |
 | I have $50 in my account  | I withdraw $100 | I see that my account contains $50  |
 
-2. Factorial Exercise
+### 2. Factorial Exercise
 
 Open the class `org.example.exercises.factorial.FactorialTest;`. You'll find five unit tests there.
 
