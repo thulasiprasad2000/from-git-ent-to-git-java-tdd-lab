@@ -2,7 +2,7 @@
 
 | Title                                             | Type | Duration | Author               |
 |---------------------------------------------------|------|----------|----------------------|
-| Test Driven Development for Java using JUnit Lab  | Lab  | 2:30     | Suresh Melvin Sigera |
+| Test Driven Development for Java using JUnit      | Lab  | 2:30     | Suresh Melvin Sigera |
 
 ## Initial Setup
 
