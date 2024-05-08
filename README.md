@@ -121,7 +121,7 @@ Essentially, you're doing the Make the failing test pass step of TDD.
 This should help you get used to the rhythm of TDD before you have to write your own tests. Here's the cycle you should
 go through once for each test.
 
-## How to submit homework
+## How to submit the lab
 
 ### Setup
 
