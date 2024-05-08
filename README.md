@@ -4,6 +4,13 @@
 |---------------------------------------------------|------|----------|----------------------|
 | Test Driven Development for Java using JUnit Lab  | Lab  | 2:30     | Suresh Melvin Sigera |
 
+## Initial Setup
+
+For instructions on how to fork and clone the lab, please refer to
+this [link](https://git.generalassemb.ly/ENT-JAVA-Accelerator/start-here/blob/main/SETUP.md#how-do-i-fork-and-clone-lessonslabs).
+
+## Exercise
+
 ### 1. Write your own tests
 
 Now you're going to write your own test.
