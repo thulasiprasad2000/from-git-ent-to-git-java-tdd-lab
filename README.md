@@ -137,7 +137,7 @@ go through once for each test.
 
 ### Submitting work
 
-- Step 1. Create a folder for the specific homework
+- Step 1. Create a folder for the specific work
 - Step 2. Push to your fork
 - Step 3. Submit a pull request
 - Step 3.1. Add a title and comment
