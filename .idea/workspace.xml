@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0cdc21c5-c67f-40e0-9dd9-b3033a309847" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/exercises/accountbalance/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/exercises/accountbalance/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/exercises/factorial/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/exercises/factorial/Factorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/exercises/accountbalance/AccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/exercises/accountbalance/AccountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/exercises/factorial/FactorialTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/exercises/factorial/FactorialTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,9 +30,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2JEFmq8rRu1mMfMjIQq88Cyg2nS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -49,11 +51,12 @@
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/andru/dev/__projects/workshops/general-assembly/20240520_Lloyds_Java_Bootcamp/java-accelerator/java-tdd-lab",
+    "last_opened_file_path": "/home/thulasi.tirumasetty/java-accelerator/java-tdd-lab",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propDebugger"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -66,23 +69,8 @@
       <recent name="factorial" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AccountTest">
-    <configuration name="AccountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-tdd-lab" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.exercises.accountbalance.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.exercises.accountbalance" />
-      <option name="MAIN_CLASS_NAME" value="org.example.exercises.accountbalance.AccountTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FactorialTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.FactorialTest.shouldThrowIllegalArgumentExceptionWhenNumberIsNegative">
+    <configuration name="FactorialTest.shouldReturnOneWhenNumberIsOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-tdd-lab" />
       <extension name="coverage">
         <pattern>
@@ -92,7 +80,24 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.exercises.factorial" />
       <option name="MAIN_CLASS_NAME" value="org.example.exercises.factorial.FactorialTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="shouldReturnOneWhenNumberIsOne" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FactorialTest.shouldReturnOneWhenNumberIsZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-tdd-lab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.exercises.factorial.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.exercises.factorial" />
+      <option name="MAIN_CLASS_NAME" value="org.example.exercises.factorial.FactorialTest" />
+      <option name="METHOD_NAME" value="shouldReturnOneWhenNumberIsZero" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -113,11 +118,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FactorialTest.shouldReturnTwoWhenNumberIsTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-tdd-lab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.exercises.factorial.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.exercises.factorial" />
+      <option name="MAIN_CLASS_NAME" value="org.example.exercises.factorial.FactorialTest" />
+      <option name="METHOD_NAME" value="shouldReturnTwoWhenNumberIsTwo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FactorialTest.shouldThrowIllegalArgumentExceptionWhenNumberIsNegative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-tdd-lab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.exercises.factorial.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.exercises.factorial" />
+      <option name="MAIN_CLASS_NAME" value="org.example.exercises.factorial.FactorialTest" />
+      <option name="METHOD_NAME" value="shouldThrowIllegalArgumentExceptionWhenNumberIsNegative" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AccountTest" />
-        <item itemvalue="JUnit.FactorialTest" />
+        <item itemvalue="JUnit.FactorialTest.shouldThrowIllegalArgumentExceptionWhenNumberIsNegative" />
         <item itemvalue="JUnit.FactorialTest.shouldReturnSixWhenNumberIsThree" />
+        <item itemvalue="JUnit.FactorialTest.shouldReturnOneWhenNumberIsZero" />
+        <item itemvalue="JUnit.FactorialTest.shouldReturnTwoWhenNumberIsTwo" />
+        <item itemvalue="JUnit.FactorialTest.shouldReturnOneWhenNumberIsOne" />
       </list>
     </recent_temporary>
   </component>
